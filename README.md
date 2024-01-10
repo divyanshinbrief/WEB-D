@@ -1,2 +1,2 @@
 # WEB-D
-Collections of WEB Development Learnings everyday.
+Collections of WEB Development Learnings Everyday.
