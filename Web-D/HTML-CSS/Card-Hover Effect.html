@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Card Hover</title>
+  <!-- <link rel="stylesheet" href="styleCardHover.css" /> -->
+</head>
+<style>
+  .card {
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+    margin: 30px;
+    box-shadow: 1px 1px 10px black;
+    transition: 1s;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  h2,
+  p {
+    padding-left: 20px;
+  }
+
+  .card:hover {
+    box-shadow: 2px 2px 50px black;
+  }
+</style>
+
+<body>
+  <div class="card">
+    <img src="man.jpg" alt="Man" />
+    <div class="desc">
+      <h2>Nishant Gupta</h2>
+      <p>Data Analyst</p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="woman.jpg" alt="Woman">
+    <div>
+      <h2>Avantika Sharma</h2>
+      <p>Software Engineer</p>
+    </div>
+  </div>
+</body>
+
+</html>

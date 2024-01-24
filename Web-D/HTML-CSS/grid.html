@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRID</title>
+</head>
+<style>
+    .container{
+        height: 500px;
+        width: 60%;
+        background-color: rgba(232, 232, 232, 0.79);
+        display: grid;
+        grid-template-areas: "a a a a"
+                             "b b c d"
+                             "e e e f";
+
+    }
+    .items{
+      text-align: center;
+    }
+    .item1{
+        border: 2px solid black;
+        background-color: rgb(19, 146, 146);
+        grid-area: a;
+    }
+    .item3{
+        border: 2px solid black;
+        grid-area: c;
+        background-color: rgb(185, 219, 15);
+    }
+    .item4{
+        border: 2px solid black;
+        grid-area: d;
+        background-color: rgb(145, 35, 35);
+    }
+    .item2{
+        border: 2px solid rgb(6, 2, 3);
+        grid-area: b;
+        background-color: rgb(44, 112, 89);
+    }
+    .item5{
+        border: 2px solid rgb(16, 13, 14);
+        grid-area: e;
+        color: white;
+        background-color: rgb(250, 180, 18);
+    }
+    .item6{
+        border: 2px solid rgb(16, 13, 14);
+        grid-area: f;
+        background-color: rgb(16, 126, 230);
+    }
+</style>
+<body>
+    <div class="container" sty;>
+        <div class="items item1">1</div>
+        <div class="items item2">2</div>
+        <div class="items item3">3</div>
+        <div class="items item4">4</div>
+        <div class="items item5">5</div>
+        <div class="items item6">6</div>
+    </div>
+</body>
+</html>
